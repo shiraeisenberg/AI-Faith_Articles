@@ -30,7 +30,7 @@ Back to biology
 
 So with this immense power to study and manipulate text with LLM neural networks, we turn to a different kind of sequence, DNA. LLMs are already making massive advances in protein and chemical structure study. Applications in drug discovery are underway.
 
-In 2022, ProtGPT2 (https://www.nature.com/articles/s41467-022-32007-7) was announced as a deep unsupervised LLM for protein generation and design. This means a language model is being used for building novel proteins customized for specific purposes. These proteins hold potential to tackle environmental and biomedical problems. You can play with ProtGPT2 here https://huggingface.co/spaces/Gradio-Blocks/protGPT2_gradioFold. 
+In 2022, ProtGPT2 (https://www.nature.com/articles/s41467-022-32007-7) was announced as a deep unsupervised LLM for protein generation and design. This means a language model is being used for building novel proteins customized for specific purposes. These proteins hold potential to tackle environmental and biomedical problems. You can play with ProtGPT2+Alphafold for protein synthesis and structure prediction here https://huggingface.co/spaces/Gradio-Blocks/protGPT2_gradioFold. 
 
 
 So what's next?
