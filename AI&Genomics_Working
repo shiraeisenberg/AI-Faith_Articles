@@ -10,7 +10,7 @@ Recent applications of LLMs let AI learn the languages of biology and chemistry 
 
 Let's take a look at how this is possible.
 
-First, what is a LLM? LLMs are machine learning algorithms that use enormous text datasets (hence the models are LARGE-- often trained on hundreds of gigabytes of text data, take Google's flant5 11b, which is trained with 11 BILLION parameters) to recognize, predict, and generate human language on the basis of predicting the next word in a sequence. OpenAI's GPT-3 (trained on 175 billion parameters) is a popular example.
+First, what is a LLM? LLMs are machine learning algorithms that use enormous text datasets (hence the models are LARGE-- often trained on hundreds of gigabytes of text data to recognize, predict, and generate human language on the basis of predicting the next word in a sequence. OpenAI's GPT-3 (trained on 175 billion parameters) is a popular example.
 
 We cannot understand LLMs without understanding how the technology came about. Before we go further into how LLMs are used, let's go on a tangent and cover the history of their predecessor architectures used for natural language processing to understand how and why LLMs came about. 
 
@@ -37,9 +37,10 @@ So what's next?
 
 NVIDIA's BioNeMO framework promises to help scientists better understand disease and find therapies for patients by supporting chemistry, protein, DNA, and RNA formats, essentially turning LLMs into biomolecular LLMs. 
 
-As the scale of LLMs grows (some are now being trained on upwards of 500 billion parameters), so too can the capabilities expand. The sheer size of the networks alleviates the need to train on custom, smaller, datasets for specific tasks and allows scientists to scale up their models and capture information about molecular structure and more. Several scientific institutes and private companies are already using the technology or signed up to do so.
+As the scale of LLMs grows (some are now being trained on upwards of 500 billion parameters), so too can the capabilities expand. The sheer size of the networks alleviates the need to train on custom, smaller, datasets for specific tasks and allows scientists to scale up their models and capture information about molecular structure and more.
 
-I for one am excited to see where this field will go. 
+I am personally working with a group interested in the plankton metagenome and the role LLMs (potentially with hybrid CNN architectures) can play in unraveling the metagenome into phenotypes. A cubic mile of ocean water contains billions (if not more) of planktonic organisms. By routinely sampling ocean water, we can collect information and map the metagenome of these organisms. Taken together with metadata such as temperature, acidity, depth, and water pressure, and mapped to a time series, this data reveals changes in the oceanic biome due to changes in climate. By training new foundation models on the extensive metagenome sequences from our samples, we will be able to map changes in ecosystem conditions and climate to changes in the phenotypic manifestations of the animals that live there. Large Language Model (LLM) architectures enable us to take these data-rich genomic sequences and extract information relevant to phenotypes. CNNs have shown promise on long sequences in genomics, but lack the immense power of transformers and capacity for knowledge recall. We’re aiming to develop a new, hybrid architecture, for this task specifically. 
 
+I'm even more excited about the potential of LLMs trained on human biochemical sequences. One can imagine replacing the massive repositories of unstructured text data LLMs are currently trained on with massive repositories of unstructured biochemical sequences. An LLM like this might be able to synthesize genomes de novo just as current LLMs are able to synthesize text. The viability of these genomes could be evaluated similarly to how semantic feasibility is evaluated now. 
 
 
